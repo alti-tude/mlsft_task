@@ -1,3 +1,6 @@
 ./libraries/*
 *software*
 .ipynb_checkpoints
+*tmp*
+*models/*
+*runs/*
