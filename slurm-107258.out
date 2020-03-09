@@ -1,0 +1,33 @@
+==========================================
+SLURM_JOB_ID = 107258
+SLURM_NODELIST = gnode34
+SLURM_JOB_GPUS = 3
+==========================================
+[I 04:10:30.189 NotebookApp] JupyterLab extension loaded from /home/kartik.g/miniconda3/envs/pictionary/lib/python3.7/site-packages/jupyterlab
+[I 04:10:30.190 NotebookApp] JupyterLab application directory is /home/kartik.g/miniconda3/envs/pictionary/share/jupyter/lab
+[I 04:10:30.251 NotebookApp] Serving notebooks from local directory: /home/kartik.g/mlsft_task
+[I 04:10:30.251 NotebookApp] The Jupyter Notebook is running at:
+[I 04:10:30.252 NotebookApp] http://localhost:3001/?token=f8459ab3eab488075b825568301a0a92f783121f17f0d211
+[I 04:10:30.252 NotebookApp]  or http://127.0.0.1:3001/?token=f8459ab3eab488075b825568301a0a92f783121f17f0d211
+[I 04:10:30.252 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 04:10:30.258 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/kartik.g/.local/share/jupyter/runtime/nbserver-15731-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:3001/?token=f8459ab3eab488075b825568301a0a92f783121f17f0d211
+     or http://127.0.0.1:3001/?token=f8459ab3eab488075b825568301a0a92f783121f17f0d211
+[I 04:11:16.173 NotebookApp] 302 GET /?token=f8459ab3eab488075b825568301a0a92f783121f17f0d211 (::1) 0.85ms
+[W 04:11:20.530 NotebookApp] Notebook Task1.ipynb is not trusted
+[I 04:11:26.127 NotebookApp] Kernel started: d3ea8fe0-1470-416c-8661-3950f704de1c
+[I 04:13:12.855 NotebookApp] Saving file at /Task1.ipynb
+[I 04:13:20.767 NotebookApp] Saving file at /Task1.ipynb
+[I 04:13:29.125 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel d3ea8fe0-1470-416c-8661-3950f704de1c restarted
+slurmstepd: error: *** JOB 107258 ON gnode34 CANCELLED AT 2020-03-06T04:15:02 ***
+slurmstepd: error: Detected 1 oom-kill event(s) in step 107258.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+[I 04:15:07.124 NotebookApp] Saving file at /Task1.ipynb
+[I 04:15:07.466 NotebookApp] Saving file at /Task1.ipynb
+[I 04:15:08.666 NotebookApp] Saving file at /Task1.ipynb
+[I 04:15:09.137 NotebookApp] Saving file at /Task1.ipynb
+[I 04:15:09.888 NotebookApp] Starting buffering for d3ea8fe0-1470-416c-8661-3950f704de1c:1e235beae66342a28c3e54eca1d8b4db
